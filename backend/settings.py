@@ -141,7 +141,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:3000",  # Alternative React dev server
     "http://localhost:3000",
-    "https://vercel.com/bhumika1608s-projects/ams-frontend"
+    "https://ams-frontend-rho.vercel.app"
 ]
 
 # JWT Settings
