@@ -35,6 +35,9 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'ams-backend-02xe.onrender.com']
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 DEFAULT_FROM_EMAIL = 'noreply@localhost'
 
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 # Application definition
 INSTALLED_APPS = [
